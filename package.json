@@ -11,8 +11,7 @@
   "scripts": {
     "prepack": "gulp compile",
     "postpack": "gulp clean:dist",
-    "test": "gulp mocha:coverage",
-    "postinstall": "gulp compile"    
+    "test": "gulp mocha:coverage"
   },
   "keywords": [
     "as2",
@@ -68,7 +67,7 @@
     "ts-mock-imports": "^1.3.8",
     "ts-node": "^9.0.0",
     "typedoc": "^0.19.0",
-    "typescript": "^4.7.4",
+    "typescript": "^4.0.2",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   }
