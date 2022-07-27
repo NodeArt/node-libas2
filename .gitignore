@@ -38,6 +38,6 @@ node_modules
 
 # compiled typescript
 # dist/**
-index.js
-index.d.ts
+# index.js
+# index.d.ts
 !typings/**
